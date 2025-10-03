@@ -1,8 +1,8 @@
 ---
 layout: project
-title: HW 4 Mechanism Design Porfolio Problem
+title: HW 4 Mechanism Design Portfolio Problem
 description: Designing a lifting mechanism with a rigid bar, pin supports, and actuator
-image: /assets/images/hw4_design.png
+img: /assets/images/hw4_design.png
 ---
 
 
@@ -22,5 +22,6 @@ Results:
 - Maximum lift height achieved: 50 cm
 - Maximum load supported: 21.42 kN  
 
-Final Design:
-image
+Final Design:  
+![HW4 Mechanism Design](/assets/images/hw4_design.png)
+

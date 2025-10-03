@@ -2,7 +2,7 @@
 layout: project
 title: HW 4 Mechanism Design Portfolio Problem
 description: Designing a lifting mechanism with a rigid bar, pin supports, and actuator
-img: /assets/images/hw4_design.png
+image: /assets/images/hw4_design.png
 ---
 
 

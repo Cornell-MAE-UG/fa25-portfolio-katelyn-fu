@@ -17,7 +17,7 @@ The driving mechanism of energy transfer is conduction through the metal wall an
 Heat exchangers like this are widely used in engineering and industrial applications where efficient heat recovery or dissipation is needed.
 
 System Diagram and Balances:  
-/assets/images/hw11-calculations.png
+![HW11 Calculations](/assets/images/hw11-calculations.png)
 
 Description of Change:
 In our experiment, we compared the performance of the heat exchanger operating in same-flow (parallel-flow) and counter-flow configurations while keeping flow rate and inlet temperatures approximately constant. The main operating change was simply reversing one loop so the hot and cold streams flowed in opposite directions instead of the same direction.

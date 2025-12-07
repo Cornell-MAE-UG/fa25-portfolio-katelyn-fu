@@ -3,6 +3,7 @@ layout: project
 title: HW 4 & 12 Statics Mechanism Design Portfolio Problem
 description: Designing a lifting mechanism with a rigid bar, pin supports, and actuator
 image: /assets/images/hw4_design.png
+permalink: /projects/2025-hw4-statics-mechanism/
 ---
 
 

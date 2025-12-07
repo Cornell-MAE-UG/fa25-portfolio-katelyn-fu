@@ -1,6 +1,6 @@
 ---
 layout: project
-title: HW 4 Mechanism Design Portfolio Problem
+title: HW 4 & 12 Statics Mechanism Design Portfolio Problem
 description: Designing a lifting mechanism with a rigid bar, pin supports, and actuator
 image: /assets/images/hw4_design.png
 ---
@@ -25,6 +25,13 @@ Results:
 - Maximum lift height achieved: 50 cm
 - Maximum load supported: 21.42 kN  
 
-Final Design:  
-![HW4 Mechanism Design](/assets/images/hw4_design.png)
+Part 1 Design:  
+![HW4 Design 1](/fa25-portfolio-katelyn-fu/assets/images/hw4_design.png)
+
+Problem continued (HW 12):
+I was tasked with finding the maximum deflection of my beam and choosing a beam design (corss-section, material) such that its vertical deflection is below 2% of its length. My given assumptions were that the bar in my mechanism is no longer rigid and is now best described as a beam which bends due to the combined action of the weight and the actuator force.
+
+Calculations:
+![HW12 Calculations](/fa25-portfolio-katelyn-fu/assets/images/hw4-hw12.jpg)
+
 

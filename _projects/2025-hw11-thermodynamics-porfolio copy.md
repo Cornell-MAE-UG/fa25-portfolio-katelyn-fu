@@ -5,7 +5,8 @@ description:
 image: /assets/images/heat-exchanger.jpg
 ---
 
-### Supplies: one heat exchanger, two water pumps, 4 water buckets, ice, water, styrofoam for insulation, an immersion heater, one thermocouple, four thermometers, food dye
+### Supplies: 
+one heat exchanger, two water pumps, 4 water buckets, ice, water, styrofoam for insulation, an immersion heater, one thermocouple, four thermometers, food dye
 
 ### Description: 
 A heat exchanger is a device that transfers thermal energy between two fluids at different temperatures without allowing the fluids to mix. In this system, heat is exchanged between hot and cold water streams flowing through separate channels inside the metal walls of the heat exchanger. The metal acts as a conductive barrier that allows energy to flow from the hotter fluid to the colder one while keeping the two fluids physically separated.
@@ -17,7 +18,11 @@ The driving mechanism of energy transfer is conduction through the metal wall an
 Heat exchangers like this are widely used in engineering and industrial applications where efficient heat recovery or dissipation is needed.
 
 ### System Diagram and Balances:  
-![HW11 Calculations](/fa25-portfolio-katelyn-fu/assets/images/hw11-calculations.png)
+<img 
+  src="/fa25-portfolio-katelyn-fu/assets/images/hw11-calculations.png"
+  alt="Heat exchanger system diagram and balances"
+  style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
+>
 
 ### Application of Energy Balance to Experimental Data:
 Using the steady-flow energy balance derived above and assuming liquid water with constant specific heat (cp = 4.18 kJ/kg·K), the heat transfer rate can be calculated directly from measured temperatures. Kinetic and potential energy changes were assumed negligible, and no external heat loss to the surroundings was considered.

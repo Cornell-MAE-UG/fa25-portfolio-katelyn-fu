@@ -18,11 +18,10 @@ The driving mechanism of energy transfer is conduction through the metal wall an
 Heat exchangers like this are widely used in engineering and industrial applications where efficient heat recovery or dissipation is needed.
 
 ### System Diagram and Balances:  
-<img 
-  src="/fa25-portfolio-katelyn-fu/assets/images/hw11-calculations.png"
-  alt="Heat exchanger system diagram and balances"
-  style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
->
+
+<img src="/fa25-portfolio-katelyn-fu/assets/images/hw11-calculations.png"
+     alt="Heat exchanger system diagram and balances"
+     style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 
 ### Application of Energy Balance to Experimental Data:
 Using the steady-flow energy balance derived above and assuming liquid water with constant specific heat (cp = 4.18 kJ/kg·K), the heat transfer rate can be calculated directly from measured temperatures. Kinetic and potential energy changes were assumed negligible, and no external heat loss to the surroundings was considered.

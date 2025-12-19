@@ -5,9 +5,9 @@ description:
 image: /assets/images/heat-exchanger.jpg
 ---
 
-Supplies: one heat exchanger, two water pumps, 4 water buckets, ice, water, styrofoam for insulation, an immersion heater, one thermocouple, four thermometers, food dye
+### Supplies: one heat exchanger, two water pumps, 4 water buckets, ice, water, styrofoam for insulation, an immersion heater, one thermocouple, four thermometers, food dye
 
-Description: 
+### Description: 
 A heat exchanger is a device that transfers thermal energy between two fluids at different temperatures without allowing the fluids to mix. In this system, heat is exchanged between hot and cold water streams flowing through separate channels inside the metal walls of the heat exchanger. The metal acts as a conductive barrier that allows energy to flow from the hotter fluid to the colder one while keeping the two fluids physically separated.
 
 During operation, the hot water pumped from the heated reservoir enters one side of the heat exchanger and flows through its internal tubing, while cold water from the ice-cooled reservoir flows through a separate set of adjacent channels in the opposite direction. This counter-flow arrangement maintains a large temperature difference across the length of the device which enhances the rate of heat transfer and overall efficiency.
@@ -16,10 +16,10 @@ The driving mechanism of energy transfer is conduction through the metal wall an
 
 Heat exchangers like this are widely used in engineering and industrial applications where efficient heat recovery or dissipation is needed.
 
-System Diagram and Balances:  
+### System Diagram and Balances:  
 ![HW11 Calculations](/fa25-portfolio-katelyn-fu/assets/images/hw11-calculations.png)
 
-Application of Energy Balance to Experimental Data:
+### Application of Energy Balance to Experimental Data:
 Using the steady-flow energy balance derived above and assuming liquid water with constant specific heat (cp = 4.18 kJ/kg·K), the heat transfer rate can be calculated directly from measured temperatures. Kinetic and potential energy changes were assumed negligible, and no external heat loss to the surroundings was considered.
 For the counter-flow case:
 Q dot = m dot * cp (Th, in - Th, out)

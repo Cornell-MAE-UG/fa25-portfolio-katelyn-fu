@@ -31,11 +31,14 @@ Because heat transfer occurs across a finite temperature difference, entropy gen
 Description of Change:
 In our experiment, we compared the performance of the heat exchanger operating in same-flow (parallel-flow) and counter-flow configurations while keeping flow rate and inlet temperatures approximately constant. The main operating change was simply reversing one loop so the hot and cold streams flowed in opposite directions instead of the same direction.
 
-Measured Data:
-Condition	    Th, in (°C)     Th, out (°C)        Tc, in (°C)     Tc, out (°C)
-Same-flow       35.0            23.7                8.7             21.1
-Counter-flow    35.0            18.6                9.2             22.1
-Flow rate: 210 gal/hr (constant for both trials)
+### Measured Data
+
+| Condition     | Th, in (°C) | Th, out (°C) | Tc, in (°C) | Tc, out (°C) |
+|--------------|-------------|--------------|-------------|--------------|
+| Same-flow    | 35.0        | 23.7         | 8.7         | 21.1         |
+| Counter-flow | 35.0        | 18.6         | 9.2         | 22.1         |
+
+Flow rate: **210 gal/hr** (constant for both trials)
 
 In same-flow, the hot stream cooled by: 35.0 -23.7 = 11.3 °C
 In counter-flow, the hot stream cooled by: 35.0 - 18.6 = 16.4 °C

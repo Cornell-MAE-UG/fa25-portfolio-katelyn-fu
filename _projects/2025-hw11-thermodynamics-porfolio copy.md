@@ -19,6 +19,15 @@ Heat exchangers like this are widely used in engineering and industrial applicat
 System Diagram and Balances:  
 ![HW11 Calculations](/fa25-portfolio-katelyn-fu/assets/images/hw11-calculations.png)
 
+Application of Energy Balance to Experimental Data:
+Using the steady-flow energy balance derived above and assuming liquid water with constant specific heat (cp = 4.18 kJ/kg·K), the heat transfer rate can be calculated directly from measured temperatures. Kinetic and potential energy changes were assumed negligible, and no external heat loss to the surroundings was considered.
+For the counter-flow case:
+Q dot = m dot * cp (Th, in - Th, out)
+Using a measured flow rate of 210 gal/hr (m dot = 0.22 kg/s):
+Q dot = (0.22)(4.18)(35.0 - 18.6) = 15.0 kW
+This result confirms quantitatively that counter-flow operation increases the heat transfer rate compared to same-flow operation under identical inlet conditions.
+Because heat transfer occurs across a finite temperature difference, entropy generation is positive which confirms that real heat exchangers are irreversible devices. This entropy generation represents lost potential for useful work and provides a thermodynamic basis for improving exchanger design.
+
 Description of Change:
 In our experiment, we compared the performance of the heat exchanger operating in same-flow (parallel-flow) and counter-flow configurations while keeping flow rate and inlet temperatures approximately constant. The main operating change was simply reversing one loop so the hot and cold streams flowed in opposite directions instead of the same direction.
 

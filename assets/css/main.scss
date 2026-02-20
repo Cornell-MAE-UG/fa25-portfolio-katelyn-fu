@@ -9,35 +9,40 @@ $color_scheme: '{{ site.color_scheme }}';
 @import "custom";
 
 
-/* --- Custom Layout Fixes --- */
+/* --- Minimal Theme Layout Overrides --- */
 
-/* 1. Ensure the page body fills the screen and pushes the footer down */
+/* 1. Force the page to be at least the height of the browser window */
+html, body {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
 }
 
-/* 2. Target the gallery container to grow and fill the vertical space */
-.gallery-container {
-  flex: 1 0 auto; 
-  padding-bottom: 50px; /* Adds extra room at the bottom for titles */
+/* 2. Target the Minimal theme's wrapper to grow and push the footer down */
+.wrapper {
+  flex: 1 0 auto;
+  max-width: 900px; /* Standard for this theme */
+  margin: 0 auto;
+  padding-bottom: 60px !important; /* Prevents footer overlap */
 }
 
-/* 3. Fix the cut-off project titles in the gallery */
+/* 3. Fix the "SLF Centrifugal Density Separator" Title cut-off */
 .gallery-item p {
-  white-space: normal !important; /* Allows long titles to wrap to 2+ lines */
-  overflow: visible !important;   /* Shows all text */
-  text-overflow: clip !important; /* Removes the "..." if it exists */
-  height: auto !important;        /* Let the text box grow as needed */
-  min-height: 3.6em;              /* Keeps the boxes uniform for 2 lines of text */
-  line-height: 1.2;
-  margin-top: 10px;
+  white-space: normal !important; /* Allow the long title to wrap */
+  height: auto !important;        /* Let the box grow with the text */
+  overflow: visible !important;
+  line-height: 1.4 !important;
+  display: block !important;
   text-align: center;
+  margin-top: 10px;
 }
 
-/* 4. Ensure the footer stays at the very bottom of the browser */
+/* 4. Ensure the footer sits at the very bottom of the page */
 footer {
   flex-shrink: 0;
+  padding: 20px 0 !important;
+  width: 100%;
 }

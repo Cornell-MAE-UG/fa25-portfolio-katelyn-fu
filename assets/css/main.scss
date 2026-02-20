@@ -8,3 +8,39 @@ $color_scheme: '{{ site.color_scheme }}';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 @import "custom";
 
+/* --- Portfolio Layout Fixes --- */
+
+/* 1. Push the footer to the bottom of the screen */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the page is at least as tall as the screen */
+  margin: 0;
+}
+
+/* Identifies the main content area and tells it to grow to fill space */
+main, .wrapper, #main {
+  flex: 1 0 auto; 
+}
+
+/* Ensure the footer stays at the very bottom */
+footer {
+  flex-shrink: 0;
+}
+
+/* 2. Fix for cut-off Project Titles */
+.project-card h3, 
+.project-title,
+[class*="title"] {
+  white-space: normal !important; /* Forces text to wrap instead of staying on one line */
+  overflow: visible !important;   /* Ensures no text is hidden */
+  line-height: 1.3;               /* Adds a little space between wrapped lines */
+  margin-top: 10px;
+  display: block;
+}
+
+/* Ensures the container doesn't have a height limit that cuts off the wrapped text */
+.project-card {
+  height: auto !important;
+  min-height: 350px; /* Adjust this number to keep your cards looking uniform */
+}

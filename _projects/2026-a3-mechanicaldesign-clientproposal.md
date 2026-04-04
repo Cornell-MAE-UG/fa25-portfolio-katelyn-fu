@@ -15,32 +15,32 @@ image: /assets/images/Spotted_lanternfly.png
 ## Client Pitch
 
 ### Problem
-[cite_start]Viticulturalists in New York State are facing a spotted lanternfly (SLF) infestation, an invasive species that contaminates grape harvests[cite: 447]. [cite_start]Currently, batches are rejected by juiceries and wineries, causing significant economic loss[cite: 447]. Traditional pest control, like heavy pesticide rotations, is environmentally costly and threatens organic integrity.
+Viticulturalists in New York State are facing a spotted lanternfly (SLF) infestation, an invasive species that contaminates grape harvests. Currently, batches are rejected by juiceries and wineries, causing significant economic loss. Traditional pest control, like heavy pesticide rotations, is environmentally costly and threatens organic integrity.
 
 ### Impact
 Reducing SLF contamination in harvest improves economic output. Currently, farmers rely on insecticide rotations, but a mechanical device would offer a low-chemical alternative and reduce the cost of expensive sprays while meeting the growing consumer demand. 
 
 ### The Solution: Water-Based Agitation
-[cite_start]Our team is developing a water-based agitation system that leverages **density-driven buoyancy** to separate SLF from grapes[cite: 447]. [cite_start]Because grapes are denser than the invasive insects, controlled turbulence allows the SLF to float to the surface for removal while the grapes remain submerged[cite: 447, 472].
+Our team is developing a water-based agitation system that leverages **density-driven buoyancy** to separate SLF from grapes. Because grapes are denser than the invasive insects, controlled turbulence allows the SLF to float to the surface for removal while the grapes remain submerged.
 
 ### Implementation
-[cite_start]Harvested fruit is loaded into a 3D-printed stationary bucket filled with water[cite: 467, 508]. [cite_start]A handheld drill powers a machined aluminum shaft connected to an agitator head[cite: 466, 468, 506]. [cite_start]By oscillating the rotation, the system breaks the surface tension between the insects and the fruit[cite: 507, 510].
+Harvested fruit is loaded into a 3D-printed stationary bucket filled with water. A handheld drill powers a machined aluminum shaft connected to an agitator head. By oscillating the rotation, the system breaks the surface tension between the insects and the fruit.
 
 ### Why It's Better than the Status Quo
 Pesticides leave a taint on the wine’s taste profile and contaminate the organic integrity of the grapes. Manual sorting is slow, costly, and prone to human error/inconsistencies. Our solution is non-chemical and efficient on a large scale.
 
 ### End-of-Semester Proof-of-Concept
-[cite_start]Our project has pivoted to a water-based agitation system that utilizes density-driven buoyancy to separate invasive Spotted Lanternflies (SLF) from grape harvests[cite: 191, 210]. [cite_start]The system consists of a stationary 3D-printed bucket filled with water, where a machined aluminum shaft and a press-fit propeller create controlled turbulence[cite: 211, 212, 215]. [cite_start]By oscillating the direction of agitation, we break the physical entanglements between the pests and the fruit[cite: 131, 216]. [cite_start]Success for the final design is defined by a separation efficiency of $\ge90\%$ of SLF models and a processing throughput of $\le4$ minutes per 1kg batch[cite: 194, 197].
+Our project has pivoted to a water-based agitation system that utilizes density-driven buoyancy to separate invasive Spotted Lanternflies (SLF) from grape harvests. The system consists of a stationary 3D-printed bucket filled with water, where a machined aluminum shaft and a press-fit propeller create controlled turbulence. By oscillating the direction of agitation, we break the physical entanglements between the pests and the fruit. Success for the final design is defined by a separation efficiency of 90% of SLF models and a processing throughput of 4 minutes per 1kg batch.
 
 ### Key Risks & Testing
-[cite_start]Through the development of our functional prototype, we identified and tested several critical mechanical risks to ensure the viability of the final product[cite: 46, 110]:
+Through the development of our functional prototype, we identified and tested several critical mechanical risks to ensure the viability of the final product:
 
 | Risk Factor | Engineering Concern | Mitigation/Testing & Results |
 | :--- | :--- | :--- |
-| **Agitation Effectiveness** | [cite_start]Single-direction spinning may not provide enough turbulence to free trapped insects[cite: 127]. | [cite_start]**Directional Test:** Compared constant vs. oscillating rotation[cite: 123]. [cite_start]Bi-directional agitation achieved a superior **84.5% separation rate**[cite: 141]. [cite_start]We will automate direction switching using a programmable controller[cite: 143]. |
-| **Vortex Geometry** | [cite_start]Propellers that are too small may not create a sufficient "lift" zone for separation[cite: 147]. | [cite_start]**Turbulence Test:** Measured vortex depth at varying power levels[cite: 148, 149]. [cite_start]Depth was insufficient at low RPM (4-5mm)[cite: 157]. [cite_start]We are **scaling the propeller diameter by 2.2x** to increase vortex width[cite: 161, 162]. |
-| **Structural Fatigue** | [cite_start]High-resistance water agitation puts significant stress on 3D-printed joints[cite: 166]. | [cite_start]**Cycling Test:** Operated the device for 20 cycles of 30 seconds[cite: 168]. [cite_start]The socket developed **2.7mm of rotational play**[cite: 176]. [cite_start]We will implement a secure mechanical lock/keyway for the final iteration[cite: 177]. |
-| **Containment & Seals** | [cite_start]Water loss through the shaft entry point could lead to messy operation or equipment damage[cite: 179, 181]. | [cite_start]**Leak Test:** Measured an average water loss of **0.35–0.7 ml/min**[cite: 188]. [cite_start]We will integrate a professional-grade shaft seal from McMaster-Carr to ensure a watertight basin[cite: 189]. |
+| **Agitation Effectiveness** | Single-direction spinning may not provide enough turbulence to free trapped insects. | **Directional Test:** Compared constant vs. oscillating rotation. Bi-directional agitation achieved a superior **84.5% separation rate**. We will automate direction switching using a programmable controller. |
+| **Vortex Geometry** | Propellers that are too small may not create a sufficient "lift" zone for separation. | **Turbulence Test:** Measured vortex depth at varying power levels. Depth was insufficient at low RPM (4-5mm). We are **scaling the propeller diameter by 2.2x** to increase vortex width. |
+| **Structural Fatigue** | High-resistance water agitation puts significant stress on 3D-printed joints. | **Cycling Test:** Operated the device for 20 cycles of 30 seconds. The socket developed **2.7mm of rotational play**. We will implement a secure mechanical lock/keyway for the final iteration. |
+| **Containment & Seals** | Water loss through the shaft entry point could lead to messy operation or equipment damage. | **Leak Test:** Measured an average water loss of **0.35–0.7 ml/min**. We will integrate a professional-grade shaft seal from McMaster-Carr to ensure a watertight basin. |
 
 ---
 
@@ -60,29 +60,29 @@ Pesticides leave a taint on the wine’s taste profile and contaminate the organ
 ## Functional Prototype
 
 ### Purpose & Design Intent
-[cite_start]This prototype was built to vet the mechanical design, specifically focusing on fabrication, assembly, and the effectiveness of bi-directional agitation[cite: 273, 379].
+This prototype was built to vet the mechanical design, specifically focusing on fabrication, assembly, and the effectiveness of bi-directional agitation.
 
 **Core Components:**
-* [cite_start]**Agitator Bucket:** A 3D-printed PLA vessel that acts as the stationary outer tank[cite: 464, 467].
-* [cite_start]**Machined Shaft:** An Al 6061 rod that transfers rotational motion from the drill to the agitator[cite: 464, 468].
-* [cite_start]**Agitator Head:** A press-fit PLA propeller designed to create water turbulence[cite: 464, 471, 500].
+* **Agitator Bucket:** A 3D-printed PLA vessel that acts as the stationary outer tank.
+* **Machined Shaft:** An Al 6061 rod that transfers rotational motion from the drill to the agitator.
+* **Agitator Head:** A press-fit PLA propeller designed to create water turbulence.
 
 ### Performance Testing & Outcomes
-[cite_start]We performed a series of design tests to identify mechanical risks and determine necessary iterations[cite: 274, 302].
+We performed a series of design tests to identify mechanical risks and determine necessary iterations.
 
 | Test | Objective | Result | Design Change Needed |
 |:---|:---|:---|:---|
-| **Agitation Method** | [cite_start]Compare single-direction vs. bi-directional spinning[cite: 383]. | [cite_start]Bi-directional agitation achieved **84.5% separation**, showing less variance than single-direction[cite: 393, 397]. | [cite_start]Automate direction switching using a programmable motor controller instead of a manual drill trigger[cite: 399]. |
-| **Turbulence Range** | [cite_start]Determine if the propeller creates enough "lift"[cite: 403]. | [cite_start]Vortex depth was insufficient at low speeds (only 4–5mm at 25% power)[cite: 413]. | [cite_start]**Scale the propeller diameter by ~2.2X** to increase vortex width and depth[cite: 417, 418]. |
-| **Structural Integrity** | [cite_start]Test the "Drill-to-Propeller" joint over 20 cycles[cite: 420, 424]. | [cite_start]The socket developed 2.7mm of rotational play/wear, though no cracking occurred[cite: 427, 432]. | [cite_start]Implement a more secure mechanical lock between the shaft and the agitator[cite: 433]. |
-| **Leakage** | [cite_start]Measure water loss through the shaft seal[cite: 434, 437]. | [cite_start]Average water loss ranged from **0.35 to 0.7 ml/minute**[cite: 444]. | [cite_start]Improve 3D print tolerances and source a professional shaft seal from McMaster-Carr[cite: 445]. |
+| **Agitation Method** | Compare single-direction vs. bi-directional spinning. | Bi-directional agitation achieved **84.5% separation**, showing less variance than single-direction. | Automate direction switching using a programmable motor controller instead of a manual drill trigger. |
+| **Turbulence Range** | Determine if the propeller creates enough "lift". | Vortex depth was insufficient at low speeds (only 4–5mm at 25% power). | **Scale the propeller diameter by ~2.2X** to increase vortex width and depth. |
+| **Structural Integrity** | Test the "Drill-to-Propeller" joint over 20 cycles. | The socket developed 2.7mm of rotational play/wear, though no cracking occurred. | Implement a more secure mechanical lock between the shaft and the agitator. |
+| **Leakage** | Measure water loss through the shaft seal. | Average water loss ranged from **0.35 to 0.7 ml/minute**. | Improve 3D print tolerances and source a professional shaft seal from McMaster-Carr. |
 
 ### Success Criteria
-[cite_start]To evaluate the final iteration, we have established the following quantitative targets[cite: 304, 305]:
+To evaluate the final iteration, we have established the following quantitative targets:
 
-1.  [cite_start]**Separation Efficiency (High Priority):** $\ge90\%$ of SLF models successfully separated after a 60-second cycle[cite: 450].
-2.  [cite_start]**Processing Throughput (Medium Priority):** $\le4$ minutes per 1kg batch, measured from "lid-touch to ready"[cite: 453].
-3.  [cite_start]**Operating Stability (Medium Priority):** Device movement $\le2$cm and water spillage $\le50$ml during maximum RPM operation[cite: 455].
+1.  **Separation Efficiency (High Priority):** 90% of SLF models successfully separated after a 60-second cycle.
+2.  **Processing Throughput (Medium Priority):** $\le4$ minutes per 1kg batch, measured from "lid-touch to ready".
+3.  **Operating Stability (Medium Priority):** Device movement 2 cm and water spillage 50 ml during maximum RPM operation.
 
 ### Exhibit Day Demonstration
-[cite_start]We will demonstrate **Criterion 1** by processing a contaminated batch of 3D-printed grape and SLF models in real-time[cite: 456, 457]. [cite_start]After a 30-second agitation cycle, we will weigh the recovered SLF models on a scale to prove the $\ge90\%$ efficiency target has been met[cite: 457].
+We will demonstrate **Criterion 1** by processing a contaminated batch of 3D-printed grape and SLF models in real-time. After a 30-second agitation cycle, we will weigh the recovered SLF models on a scale to prove the 90% efficiency target has been met.

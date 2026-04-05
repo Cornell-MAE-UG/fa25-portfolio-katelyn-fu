@@ -80,7 +80,7 @@ This prototype was built to vet the mechanical design, specifically focusing on 
 </div>
 
 <div style="text-align:center;">
-  <img src="{{ site.baseurl }}/assets/images/agitator_bucket_shaft_connection.png" width="250">
+  <img src="{{ site.baseurl }}/assets/images/Agitator_bucket_shaft_connection.png" width="250">
   <p><em>Agitator Bucket and Shaft Connection</em></p>
 </div>
 

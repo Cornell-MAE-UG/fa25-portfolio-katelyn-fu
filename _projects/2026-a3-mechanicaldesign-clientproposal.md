@@ -81,7 +81,7 @@ We performed a series of design tests to identify mechanical risks and determine
 To evaluate the final iteration, we have established the following quantitative targets:
 
 1.  **Separation Efficiency (High Priority):** 90% of SLF models successfully separated after a 60-second cycle.
-2.  **Processing Throughput (Medium Priority):** $\le4$ minutes per 1kg batch, measured from "lid-touch to ready".
+2.  **Processing Throughput (Medium Priority):** 4 minutes per 1kg batch, measured from "lid-touch to ready".
 3.  **Operating Stability (Medium Priority):** Device movement 2 cm and water spillage 50 ml during maximum RPM operation.
 
 ### Exhibit Day Demonstration

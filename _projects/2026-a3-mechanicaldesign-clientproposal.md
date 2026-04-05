@@ -67,20 +67,20 @@ This prototype was built to vet the mechanical design, specifically focusing on 
 * **Machined Shaft:** An Al 6061 rod that transfers rotational motion from the drill to the agitator.
 * **Agitator Head:** A press-fit PLA propeller designed to create water turbulence.
 
-<div style="display:flex; gap:20px; justify-content:center;">
+<div style="display:flex; gap:20px; justify-content:center; flex-wrap: wrap;">
 
 <div style="text-align:center;">
-  <img src="/assets/images/shaft.png" width="250">
-  <p><em>Shaftt</em></p>
+  <img src="{{ site.baseurl }}/assets/images/shaft.png" width="250">
+  <p><em>Shaft</em></p>
 </div>
 
 <div style="text-align:center;">
-  <img src="/assets/images/agitator_bucket.png" width="250">
+  <img src="{{ site.baseurl }}/assets/images/agitator_bucket.png" width="250">
   <p><em>Agitator Bucket</em></p>
 </div>
 
 <div style="text-align:center;">
-  <img src="/assets/images/Agitator_bucket_shaft_connection.png" width="250">
+  <img src="{{ site.baseurl }}/assets/images/agitator_bucket_shaft_connection.png" width="250">
   <p><em>Agitator Bucket and Shaft Connection</em></p>
 </div>
 

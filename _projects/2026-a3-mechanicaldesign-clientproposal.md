@@ -114,8 +114,11 @@ We performed a series of design tests to identify mechanical risks and determine
 | Test | Objective | Result | Design Change Needed |
 | :--- | :--- | :--- | :--- |
 | **Agitation Method** | Compare single-direction vs. bi-directional spinning. | Bi-directional agitation achieved **84.5% separation**, showing less variance. | Automate direction switching using a programmable motor controller. |
+| &nbsp; | | | |
 | **Turbulence Range** | Determine if the propeller creates enough "lift". | Vortex depth was insufficient at low speeds (4–5mm @ 25% power). | **Scale propeller diameter by ~2.2X** to increase vortex width and depth. |
+| &nbsp; | | | |
 | **Structural Integrity** | Test the "Drill-to-Propeller" joint over 20 cycles. | Socket developed **2.7mm** of rotational play/wear; no cracking. | Implement a more secure mechanical lock between shaft and agitator. |
+| &nbsp; | | | |
 | **Leakage** | Measure water loss through the shaft seal. | Average water loss ranged from **0.35 to 0.7 ml/minute**. | Improve 3D print tolerances; source professional McMaster-Carr seal. |
 
 ### Success Criteria

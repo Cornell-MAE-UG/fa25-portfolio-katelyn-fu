@@ -89,16 +89,22 @@ This prototype was built to vet the mechanical design, specifically focusing on 
 ### Assembly Instructions
 **Step 1: Prepare the Shaft**  
 Insert the machined aluminum shaft through the center hole of the agitator bucket. Ensure the flange sits flush against the rim to prevent vertical motion.
+
 **Step 2: Attach the Agitator Head**  
 Press-fit the agitator head onto the shaft inside the bucket. Confirm a tight fit with no rotational play.
+
 **Step 3: Verify Clearance**  
 Manually rotate the shaft to ensure the agitator spins freely without contacting the bucket walls.
+
 **Step 4: Install Support Legs**  
 Insert the 3D-printed legs into the base of the bucket. Ensure they are securely fitted.
+
 **Step 5: Connect the Drill**  
 Insert the shaft into the drill chuck and tighten. Verify bidirectional rotation capability.
+
 **Step 6: Load the System**  
 Fill the bucket to the marked water line. Add grape and SLF models.
+
 **Step 7: Operate the Device**  
 Run the drill, alternating direction every ~2 seconds to create oscillating agitation. Operate for 30–60 seconds.
 

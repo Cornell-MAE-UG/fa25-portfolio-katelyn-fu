@@ -112,14 +112,11 @@ Run the drill, alternating direction every ~2 seconds to create oscillating agit
 We performed a series of design tests to identify mechanical risks and determine necessary iterations.
 
 | Test | Objective | Result | Design Change Needed |
-|:---|:---|:---|:---|
-| **Agitation Method** | Compare single-direction vs. bi-directional spinning. | Bi-directional agitation achieved **84.5% separation**, showing less variance than single-direction. | Automate direction switching using a programmable motor controller instead of a manual drill trigger. |
-
-| **Turbulence Range** | Determine if the propeller creates enough "lift". | Vortex depth was insufficient at low speeds (only 4–5mm at 25% power). | **Scale the propeller diameter by ~2.2X** to increase vortex width and depth. |
-
-| **Structural Integrity** | Test the "Drill-to-Propeller" joint over 20 cycles. | The socket developed 2.7mm of rotational play/wear, though no cracking occurred. | Implement a more secure mechanical lock between the shaft and the agitator. |
-
-| **Leakage** | Measure water loss through the shaft seal. | Average water loss ranged from **0.35 to 0.7 ml/minute**. | Improve 3D print tolerances and source a professional shaft seal from McMaster-Carr. |
+| :--- | :--- | :--- | :--- |
+| **Agitation Method** | Compare single-direction vs. bi-directional spinning. | Bi-directional agitation achieved **84.5% separation**, showing less variance. | Automate direction switching using a programmable motor controller. |
+| **Turbulence Range** | Determine if the propeller creates enough "lift". | Vortex depth was insufficient at low speeds (4–5mm @ 25% power). | **Scale propeller diameter by ~2.2X** to increase vortex width and depth. |
+| **Structural Integrity** | Test the "Drill-to-Propeller" joint over 20 cycles. | Socket developed **2.7mm** of rotational play/wear; no cracking. | Implement a more secure mechanical lock between shaft and agitator. |
+| **Leakage** | Measure water loss through the shaft seal. | Average water loss ranged from **0.35 to 0.7 ml/minute**. | Improve 3D print tolerances; source professional McMaster-Carr seal. |
 
 ### Success Criteria
 To evaluate the final iteration, we have established the following quantitative targets:

@@ -8,7 +8,7 @@ image: /assets/images/Spotted_lanternfly.png
 ## Table of Contents
 * [Client Pitch](#client-pitch)
 * [Functional Prototype](#functional-prototype)
-* [06: Client Report](#client-report)
+* [Client Report](#client-report)
 
 ---
 
@@ -133,10 +133,10 @@ To evaluate the final iteration, we have established the following quantitative 
 We will demonstrate **Criterion 1** by processing a contaminated batch of 3D-printed grape and SLF models in real-time. After a 30-second agitation cycle, we will weigh the recovered SLF models on a scale to prove the 90% efficiency target has been met.
 
 <a name="client-report"></a>
-## 06: Client Report
+## Client Report
 
 ### Final Prototype & Application
-The final iteration of the Buoyancy-Based Agitation System achieved a **93.3% separation efficiency**, exceeding our 90% industrial standard goal[cite: 127, 149]. The system uses a high-torque DC motor to spin a propeller at an optimized **3000 RPM**, allowing SLF models (1.0g/cm^3) to float while grape models (1.1g/cm^3) remain submerged.
+The final iteration of the Buoyancy-Based Agitation System achieved a **93.3% separation efficiency**, exceeding our 90% industrial standard goal. The system uses a high-torque DC motor to spin a propeller at an optimized **3000 RPM**, allowing SLF models (1.0g/cm^3) to float while grape models (1.1g/cm^3) remain submerged.
 
 ### Final Success Criteria Results
 * **SC1: Separation Efficiency:** **Goal:** 90%. 

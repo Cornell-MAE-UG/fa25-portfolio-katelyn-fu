@@ -8,6 +8,7 @@ image: /assets/images/Spotted_lanternfly.png
 ## Table of Contents
 * [Client Pitch](#client-pitch)
 * [Functional Prototype](#functional-prototype)
+* [06: Client Report](#client-report)
 
 ---
 
@@ -130,3 +131,30 @@ To evaluate the final iteration, we have established the following quantitative 
 
 ### Exhibit Day Demonstration
 We will demonstrate **Criterion 1** by processing a contaminated batch of 3D-printed grape and SLF models in real-time. After a 30-second agitation cycle, we will weigh the recovered SLF models on a scale to prove the 90% efficiency target has been met.
+
+<a name="client-report"></a>
+## 06: Client Report
+
+### Final Prototype & Application
+The final iteration of the Buoyancy-Based Agitation System achieved a **93.3% separation efficiency**, exceeding our 90% industrial standard goal[cite: 127, 149]. The system uses a high-torque DC motor to spin a propeller at an optimized **3000 RPM**, allowing SLF models (1.0g/cm^3) to float while grape models (1.1g/cm^3) remain submerged.
+
+### Final Success Criteria Results
+* **SC1: Separation Efficiency:** **Goal:** 90%. 
+**Result:** **93.3% (Passed)**
+* **SC2: Containment/Leakage:** **Goal:** Zero leaks at interfaces. **Result:** **Failed at shaft interface** (15 drops/min).
+* **SC3: Structural Integrity:** **Goal:** 20 cycles without loosening. **Result:** **Passed** after epoxy reinforcement.
+
+### Assembly Process
+The device is assembled by seating a bearing and o-ring into the baseplate to house the agitator shaft. Three side walls are joined and secured to the base using RTV sealant for vibration resistance and waterproofing. The 3D-printed basin is mounted to a stand housing a motor capable of 7000 RPM. Finally, the agitator is attached to the motor shaft using a standard ASME press-fit reinforced with epoxy.
+
+### Conclusion & Recommendations
+While the prototype successfully proved the physics of density-driven separation, several changes are required for industrial scaling:
+1. **Monolithic Construction:** Manufacture side walls as a single unit to eliminate seam-related leaks.
+2. **Material Transition:** Move from 3D-printed plastics to food-safe stainless steel or PETG to comply with food safety regulations and prevent corrosion.
+3. **Automated Extraction:** Implement a mechanical skim-arm to remove SLF from the surface and a bottom-drain for grape recovery.
+4. **Harvest Preservation:** Develop a filtration system to prevent the dilution of grape juice during the water-agitation process.
+
+### Project References
+*  [1] Cornell University: SLF Economic Threat.
+*  [2] USDA: Standards for Grapes.
+*  [3] Journal of Food Engineering: Grape Juice Density.
